@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Felippe George Haeitmann",
+  title: "Hi, I'm Felippe",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Software Developer from Brazil 🇧🇷 Currently developing technology to help the world see better! 🚀"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1COLDONTRUfepYucPR-1tE40TON3GCVJE/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "ttps://github.com/felippegh",
+  linkedin: "https://www.linkedin.com/in/felippegeorge/",
+  gmail: "felippegeorge@utexas.edu",
+  instagram: "https://www.instagram.com/felippegh/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,21 +46,29 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "I AM A FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly maintanable web applications, following the current best software engineering practices"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Integration of third party services such as AWS / GitHub / Google APIs"
+    ),
+    emoji("⚡ RESTFul APIs development")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "laravel",
+      fontAwesomeClassname: "fab fa-laravel"
+    },
+    {
+      skillName: "php",
+      fontAwesomeClassname: "fab fa-php"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -73,24 +78,24 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "sass",
+      fontAwesomeClassname: "fab fa-sass"
+    },
+    {
+      skillName: "bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
     },
     {
       skillName: "npm",
@@ -103,14 +108,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "docker",
@@ -126,23 +123,24 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "California State University - Northridge",
+      logo: require("./assets/images/csun.png"),
+      subHeader: "Exchange program  in Computer Science",
+      duration: "April 2014 - September 2015",
+      desc: "Brazil Scientific Mobility Program scholarship recipient, offered by the Brazilian government in partnership with Fulbright and IIE to undergraduate STEM students, with outstanding academic records, to study at universities in the United States.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Took courses about Software Engineering, Web Security, Operating Systems, Artificial Intelligence and User Experience"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Universidade Tecnológica Federal do Paraná",
+      logo: require("./assets/images/utfpr.jpg"),
+      subHeader: "Bachelor of Technology in Systems Analysis and Development",
+      duration: "January 2012 - December 2017 ",
+      desc: "Ranked between the best universities in Latin America.",
+      descBullets: [
+        "Final paper presentation on machine learning and bioinformatics using python, entitled: Applying TensorFlow in the implementation of an RNA classifier using support vector machine."
+      ]
     }
   ]
 };
@@ -150,7 +148,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -174,29 +172,55 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Full Stack Developer",
+      company: "EyeCarePro",
+      bgColor: "90, 124, 184",
+      companylogo: require("./assets/images/ecp2.png"),
+      date: "April 2021 – Present",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Develop highly maintainable web applications and RESTFul APIs;",
+        "Apply best software engineering practices, such as automated testing, continuous integration, code review and gitflow model;",
+        "Prepared the company to move towards scalable growth, improving integration processes and by developing a ticketing tool which increased the team’s capacity by 3-fold;",
+        "Refactored legacy CRM modules for a better architectural design;",
+        "Third-party services integration such as AWS / GitHub / Google APIs."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: ["Systems Development Analyst", " | ", "Software Consultant"],
+      company: "Atos",
+      bgColor: "42, 102, 156",
+      companylogo: require("./assets/images/atos.jpg"),
+      date: "Jan 2016 – Apr 2021",
+      desc: "",
+      descBullets: [
+        "Lead analyst for Sanofi Brazil and France, answering CRM Dynamics, Coupa, SAP Concur/Ariba application incidents and code enhancements, coordinating solutions with teams in Asia, Europe, Latin America and the US;",
+        "Lecturer at Sanofi headquarters in Paris, France for 3 months mentoring analysts about SAP Concur and e-Procurement Coupa;",
+        "Software Consultant for global companies as Nidec, Sanofi and Swarovski on SAP ECC and SAP S/4HANA Incidents and enhancements;",
+        "Designed functional specifications and developed ABAP code to create/improve SAP transactions."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Back End Developer",
+      company: "Hayamax",
+      bgColor: "191, 10, 37",
+      companylogo: require("./assets/images/hayamax.png"),
+      date: "Oct 2015 – Dec 2015",
+      desc: "",
+      descBullets: [
+        "Development of internal tools using PHP with MySQL database and weekly front-end enhancements in the company’s web marketplace."
+      ]
+    },
+    {
+      role: "Summer Research Assistant",
+      company: "Utexas at Austin",
+      bgColor: "191, 87, 0",
+      companylogo: require("./assets/images/icesbg.jpg"),
+      date: "Jun 2015 – Sep 2015",
+      desc: "Institute for Computational Engineering and Sciences",
+      descBullets: [
+        "Contributed as research assistant on neuromodeling, aiding graduation students in performing experiments about the relationship between neuron structure and function to determine the roles that geometric shapes and spatial interrelationships play in the functional abilities and constraints on brain activity."
+      ]
     }
   ]
 };
@@ -206,7 +230,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -216,25 +240,69 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ecp.png"),
+      projectName: "Eyecarepro",
+      projectDesc: "",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.eyecarepro.com/',"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/atos.png"),
+      projectName: "Atos",
+      projectDesc: "",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://atos.net/en/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/sanofi.png"),
+      projectName: "Sanofi",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.sanofi.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/swarovski.png"),
+      projectName: "Swarovski",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.swarovski.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/embraco.png"),
+      projectName: "Embraco",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.embraco.com/en/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/utexas.png"),
+      projectName: "Utexas",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.ices.utexas.edu/"
         }
       ]
     }
@@ -297,7 +365,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -321,7 +389,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -340,7 +408,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -353,22 +421,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "",
+  email_address: "felippegeorge@utexas.edu"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
