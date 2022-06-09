@@ -1,20 +1,18 @@
 import React, {useState, createRef} from "react";
 import "./ExperienceCard.scss";
-import ColorThief from "colorthief";
 
 export default function ExperienceCard({cardInfo, isDark}) {
   const [colorArrays, setColorArrays] = useState([]);
   const imgRef = createRef();
 
   function getColorArrays() {
-    const colorThief = new ColorThief();
-    setColorArrays(colorThief.getColor(imgRef.current));
+    setColorArrays(cardInfo.bgColor);
   }
 
   function rgb(values) {
     return typeof values === "undefined"
       ? null
-      : "rgb(" + values.join(", ") + ")";
+      : "rgb(" + values + ")";
   }
 
   const GetDescBullets = ({descBullets, isDark}) => {
