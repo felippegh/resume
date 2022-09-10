@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "ttps://github.com/felippegh",
   linkedin: "https://www.linkedin.com/in/felippegeorge/",
-  gmail: "felippegeorge@utexas.edu",
+  gmail: "felippehaeitmann@gmail.com",
   instagram: "https://www.instagram.com/felippegh/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -429,7 +429,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "",
-  email_address: "felippegeorge@utexas.edu"
+  email_address: "felippehaeitmann@gmail.com"
 };
 
 // Twitter Section
