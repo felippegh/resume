@@ -354,6 +354,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
 </table>
 
+- Delete last breaking changes from branch
+- Use node 15
+- Run 'npm run deploy'
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
