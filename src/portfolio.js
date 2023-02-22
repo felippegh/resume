@@ -324,6 +324,7 @@ const achievementSection = {
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
@@ -344,6 +345,7 @@ const achievementSection = {
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
       image: require("./assets/images/googleAssistantLogo.webp"),
+      imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
           name: "View Google Assistant Action",
@@ -356,6 +358,7 @@ const achievementSection = {
       title: "PWA Web App Developer",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
+      imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
         {
@@ -439,6 +442,8 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
+const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+
 export {
   illustration,
   greeting,
@@ -455,5 +460,6 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
+  isHireable
 };
