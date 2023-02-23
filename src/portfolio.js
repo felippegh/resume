@@ -78,6 +78,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-laravel"
     },
     {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
       skillName: "HTML",
       fontAwesomeClassname: "fab fa-html5"
     },
@@ -86,15 +90,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "Python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "Sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "bootstrap",
+      skillName: "Bootstrap",
       fontAwesomeClassname: "fab fa-bootstrap"
     },
     {
