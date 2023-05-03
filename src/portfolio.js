@@ -164,18 +164,16 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Full Stack Developer",
+      role: "Fullstack Engineer",
       company: "EyeCarePro",
       bgColor: "90, 124, 184",
       companylogo: require("./assets/images/ecp2.png"),
       date: "April 2021 – Present",
       desc: "",
       descBullets: [
-        "Develop highly maintainable web applications and RESTFul APIs;",
-        "Apply best software engineering practices, such as automated testing, continuous integration, code review and gitflow model;",
-        "Prepared the company to move towards scalable growth, improving integration processes and by developing a ticketing tool which increased the team’s capacity by 3-fold;",
-        "Refactored legacy CRM modules for a better architectural design;",
-        "Third-party services integration such as AWS / GitHub / Google APIs."
+        "Developed robust web applications and RESTful APIs for a digital marketing SaaS platform;",
+        "Successfully integrated and maintained third-party services (e.g., GitHub, Google, Freshdesk and Stripe APIs), enabling the creation and enhancement of features within EyeCarePro's SaaS offering;",
+        "Implemented industry-leading software engineering practices, including automated testing, continuous integration, code reviews and adherence to the GitFlow model, resulting in improved code quality and streamlined workflows."
       ]
     },
     {
@@ -186,20 +184,22 @@ const workExperiences = {
       date: "Jan 2016 – Apr 2021",
       desc: "",
       descBullets: [
-        "Lead analyst for Sanofi Brazil and France, answering CRM Dynamics, Coupa, SAP Concur/Ariba application incidents and code enhancements, coordinating solutions with teams in Asia, Europe, Latin America and the US;",
-        "Lecturer at Sanofi headquarters in Paris, France for 3 months mentoring analysts about SAP Concur and e-Procurement Coupa;",
-        "Software Consultant for global companies as Nidec, Sanofi and Swarovski on SAP ECC and SAP S/4HANA Incidents and enhancements;",
-        "Designed functional specifications and developed ABAP code to create/improve SAP transactions."
+        "Consulted on SAP ECC and S/4HANA incidents and enhancements for global clients including Nidec, Sanofi, and Swarovski;",
+        "Coordinated interactions between Brazilian SAP team and teams in Asia, Europe and North America, providing mentorship on technical and cultural differences;",
+        "Developed SAP ABAP and UI5(JavaScript) code for tailored SAP transactions based on functional specifications;",
+        "Lecturer at Sanofi's headquarter in Paris, France for 3 months providing mentorship to analysts on SAP Concur and e-Procurement Coupa;",
+        "Conducted root cause analysis and offered strategic recommendations to SAP managers."
       ]
     },
     {
-      role: "Back End Developer",
+      role: "Backe End Developer",
       company: "Hayamax",
       bgColor: "191, 10, 37",
       companylogo: require("./assets/images/hayamax.png"),
       date: "Oct 2015 – Dec 2015",
       desc: "",
       descBullets: [
+        "Designed and implemented productivity tools for internal users, utilizing PHP and MySQL database;",
         "Development of internal tools using PHP with MySQL database and weekly front-end enhancements in the company’s web marketplace."
       ]
     },
