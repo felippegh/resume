@@ -171,9 +171,9 @@ const workExperiences = {
       date: "April 2021 – Present",
       desc: "",
       descBullets: [
-        "Developed robust web applications and RESTful APIs for a digital marketing SaaS platform;",
-        "Successfully integrated and maintained third-party services (e.g., GitHub, Google, Freshdesk and Stripe APIs), enabling the creation and enhancement of features within EyeCarePro's SaaS offering;",
-        "Implemented industry-leading software engineering practices, including automated testing, continuous integration, code reviews and adherence to the GitFlow model, resulting in improved code quality and streamlined workflows."
+        "Develop robust web applications and RESTful APIs for a digital marketing SaaS platform;",
+        "Integrate and maintain third-party services (e.g., GitHub, Google, Freshdesk and Stripe APIs), enabling the creation and enhancement of features within EyeCarePro's SaaS offering;",
+        "Implement industry-leading software engineering practices, including automated testing, continuous integration, code reviews and adherence to the GitFlow model, resulting in improved code quality and streamlined workflows."
       ]
     },
     {
@@ -187,12 +187,12 @@ const workExperiences = {
         "Consulted on SAP ECC and S/4HANA incidents and enhancements for global clients including Nidec, Sanofi, and Swarovski;",
         "Coordinated interactions between Brazilian SAP team and teams in Asia, Europe and North America, providing mentorship on technical and cultural differences;",
         "Developed SAP ABAP and UI5(JavaScript) code for tailored SAP transactions based on functional specifications;",
-        "Lecturer at Sanofi's headquarter in Paris, France for 3 months providing mentorship to analysts on SAP Concur and e-Procurement Coupa;",
+        "Lecturer at Sanofi's headquarter in Paris for 3 months providing mentorship to analysts on SAP Concur and e-Procurement Coupa;",
         "Conducted root cause analysis and offered strategic recommendations to SAP managers."
       ]
     },
     {
-      role: "Backe End Developer",
+      role: "Backend Developer",
       company: "Hayamax",
       bgColor: "191, 10, 37",
       companylogo: require("./assets/images/hayamax.png"),
